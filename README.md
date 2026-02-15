@@ -41,6 +41,15 @@ Working with collections and iteration:
 - Break and continue statements
 - Common patterns (sum, max, filter, etc.)
 
+### 5. [Custom Types and Methods](5.%20custom-types-methods/README.md)
+Creating custom types and attaching behavior:
+- Defining structs (custom types)
+- Creating and initializing structs
+- Receiver functions (methods)
+- Value receivers vs pointer receivers
+- Constructor functions and embedded structs
+- Method chaining and practical examples
+
 ## Getting Started with Go
 
 If you're new to Go, start with the Hello World project above. It provides a comprehensive introduction to:
@@ -80,6 +89,7 @@ go clean
 - ✅ Types and Variables - Data types and declarations
 - ✅ Functions and Return Types - Function fundamentals
 - ✅ Arrays, Slices, and Loops - Collections and iteration
+- ✅ Custom Types and Methods - Structs and receiver functions
 - 🔄 More topics coming as I learn...
 
 ---
