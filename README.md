@@ -16,6 +16,14 @@ My first Go program! This project covers:
 - Essential Go commands (`go run`, `go build`, `go fmt`)
 - File structure and organization
 
+### 2. [Types and Variables](2.%20types-and-variables/README.md)
+Learning about data types and variable declarations in Go:
+- Basic types (string, int, float64, bool)
+- Different ways to declare variables (`var`, `:=`)
+- Type conversion and zero values
+- Constants and multiple declarations
+- Integer sizes and floating point types
+
 ## Getting Started with Go
 
 If you're new to Go, start with the Hello World project above. It provides a comprehensive introduction to:
@@ -52,6 +60,7 @@ go clean
 ## Progress Tracker
 
 - ✅ Hello World - Basic program structure
+- ✅ Types and Variables - Data types and declarations
 - 🔄 More topics coming as I learn...
 
 ---
