@@ -33,6 +33,14 @@ Understanding how to create and use functions:
 - Anonymous functions and defer statements
 - Recursion and functions as variables
 
+### 4. [Arrays, Slices, and Loops](4.%20arrays-slices-loops/README.md)
+Working with collections and iteration:
+- Arrays (fixed-length) vs Slices (dynamic)
+- Creating, appending, and slicing operations
+- For loops (traditional, while-style, for-range)
+- Break and continue statements
+- Common patterns (sum, max, filter, etc.)
+
 ## Getting Started with Go
 
 If you're new to Go, start with the Hello World project above. It provides a comprehensive introduction to:
@@ -71,6 +79,7 @@ go clean
 - ✅ Hello World - Basic program structure
 - ✅ Types and Variables - Data types and declarations
 - ✅ Functions and Return Types - Function fundamentals
+- ✅ Arrays, Slices, and Loops - Collections and iteration
 - 🔄 More topics coming as I learn...
 
 ---
