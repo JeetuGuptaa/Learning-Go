@@ -50,6 +50,15 @@ Creating custom types and attaching behavior:
 - Constructor functions and embedded structs
 - Method chaining and practical examples
 
+### 6. [File I/O](6.%20file-io/README.md)
+Reading and writing files to disk:
+- Simple file operations (`os.ReadFile`, `os.WriteFile`)
+- File handles and proper cleanup
+- Buffered I/O for better performance
+- File flags and permissions
+- Appending to files and line-by-line reading
+- Copying files and checking file existence
+
 ## Getting Started with Go
 
 If you're new to Go, start with the Hello World project above. It provides a comprehensive introduction to:
@@ -90,8 +99,9 @@ go clean
 - ✅ Functions and Return Types - Function fundamentals
 - ✅ Arrays, Slices, and Loops - Collections and iteration
 - ✅ Custom Types and Methods - Structs and receiver functions
+- ✅ File I/O - Reading and writing files to disk
 - 🔄 More topics coming as I learn...
 
 ---
 
-*Last updated: 2026-02-15*
+*Last updated: 2026-02-16*
