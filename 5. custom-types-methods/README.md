@@ -128,13 +128,15 @@ person.haveBirthday() // person.age is now 31
 ### Go Automatically Handles Pointers
 
 ```go
-// Both of these work the same way:
+// Calling pointer receiver method on a value:
+person := Person{firstName: "John", age: 30}
 person.haveBirthday()  // Go automatically uses &person
-(&person).haveBirthday() // Explicit pointer
+(&person).haveBirthday() // Explicit pointer - same result
 
-// Same for value receivers:
-person.fullName()  // Go automatically dereferences if needed
-(*person).fullName()
+// Calling value receiver method on a pointer:
+personPtr := &Person{firstName: "John", lastName: "Doe"}
+personPtr.fullName()  // Go automatically dereferences
+(*personPtr).fullName() // Explicit dereference - same result
 ```
 
 ## Value Receiver vs Pointer Receiver
@@ -256,6 +258,10 @@ func (c *Calculator) add(value float64) *Calculator {
 func (c *Calculator) multiply(value float64) *Calculator {
     c.result *= value
     return c
+}
+
+func (c *Calculator) getResult() float64 {
+    return c.result
 }
 
 // Usage
