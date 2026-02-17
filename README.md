@@ -59,6 +59,17 @@ Reading and writing files to disk:
 - Appending to files and line-by-line reading
 - Copying files and checking file existence
 
+### 7. [Testing](7.%20testing/README.md)
+Writing tests and benchmarks for Go code:
+- Understanding `go mod init` and modules
+- Test file structure and naming conventions
+- Basic tests and assertions (`t.Error`, `t.Fatal`)
+- Table-driven tests (best practice pattern)
+- Test coverage and running tests
+- Benchmarking for performance measurement
+- Test helpers and parallel tests
+- Why you can't name a module "main"
+
 ## Getting Started with Go
 
 If you're new to Go, start with the Hello World project above. It provides a comprehensive introduction to:
@@ -90,6 +101,21 @@ go vet filename.go
 
 # Clean build files
 go clean
+
+# Initialize a Go module (required for testing and imports)
+go mod init <module-name>
+
+# Run tests
+go test
+
+# Run tests with verbose output
+go test -v
+
+# Run tests with coverage
+go test -cover
+
+# Run benchmarks
+go test -bench=.
 ```
 
 ## Progress Tracker
@@ -100,8 +126,9 @@ go clean
 - ✅ Arrays, Slices, and Loops - Collections and iteration
 - ✅ Custom Types and Methods - Structs and receiver functions
 - ✅ File I/O - Reading and writing files to disk
+- ✅ Testing - Writing tests, benchmarks, and using go modules
 - 🔄 More topics coming as I learn...
 
 ---
 
-*Last updated: 2026-02-16*
+*Last updated: 2026-02-17*
