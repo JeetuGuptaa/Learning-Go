@@ -41,7 +41,18 @@ Working with collections and iteration:
 - Break and continue statements
 - Common patterns (sum, max, filter, etc.)
 
-### 5. [Custom Types and Methods](5.%20custom-types-methods/README.md)
+### 5. [Pointers](5.%20pointers/README.md)
+Understanding memory addresses and pointers:
+- What are pointers and why they exist
+- The `&` operator (address-of) and `*` operator (dereference)
+- Pass by value vs pass by reference
+- Pointers with functions
+- Nil pointers and safe usage
+- When to use (and not use) pointers
+- Common mistakes and how to avoid them
+- Pointers vs reference types (slices, maps)
+
+### 6. [Custom Types and Methods](6.%20custom-types-methods/README.md)
 Creating custom types and attaching behavior:
 - Defining structs (custom types)
 - Creating and initializing structs
@@ -50,7 +61,7 @@ Creating custom types and attaching behavior:
 - Constructor functions and embedded structs
 - Method chaining and practical examples
 
-### 6. [File I/O](6.%20file-io/README.md)
+### 7. [File I/O](7.%20file-io/README.md)
 Reading and writing files to disk:
 - Simple file operations (`os.ReadFile`, `os.WriteFile`)
 - File handles and proper cleanup
@@ -59,7 +70,7 @@ Reading and writing files to disk:
 - Appending to files and line-by-line reading
 - Copying files and checking file existence
 
-### 7. [Testing](7.%20testing/README.md)
+### 8. [Testing](8.%20testing/README.md)
 Writing tests and benchmarks for Go code:
 - Understanding `go mod init` and modules
 - Test file structure and naming conventions
@@ -124,6 +135,7 @@ go test -bench=.
 - ✅ Types and Variables - Data types and declarations
 - ✅ Functions and Return Types - Function fundamentals
 - ✅ Arrays, Slices, and Loops - Collections and iteration
+- ✅ Pointers - Memory addresses and references
 - ✅ Custom Types and Methods - Structs and receiver functions
 - ✅ File I/O - Reading and writing files to disk
 - ✅ Testing - Writing tests, benchmarks, and using go modules
@@ -131,4 +143,4 @@ go test -bench=.
 
 ---
 
-*Last updated: 2026-02-17*
+*Last updated: 2026-02-18*

@@ -2,6 +2,8 @@
 
 This project demonstrates how to create custom types (structs) and attach methods to them using receiver functions in Go.
 
+> **Note:** This lesson uses pointers extensively with receiver functions. If you haven't learned about pointers yet, check out [5. Pointers](../5.%20pointers/README.md) first to understand `&`, `*`, and pointer receivers.
+
 ## What is a Struct?
 
 A struct is a **custom type** that groups together variables (fields) of different types. It's similar to a class in other languages, but simpler.
