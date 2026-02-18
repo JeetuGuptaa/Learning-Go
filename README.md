@@ -52,7 +52,18 @@ Understanding memory addresses and pointers:
 - Common mistakes and how to avoid them
 - Pointers vs reference types (slices, maps)
 
-### 6. [Custom Types and Methods](6.%20custom-types-methods/README.md)
+### 6. [Maps](6.%20maps/README.md)
+Working with key-value pairs and hash tables:
+- What are maps and when to use them
+- Creating maps (make, literals, nil maps)
+- Adding, accessing, updating, and deleting elements
+- The comma-ok idiom for checking key existence
+- Iterating over maps (random order!)
+- Valid key types and value types
+- Maps are reference types
+- Practical examples (counters, grouping, sets, caches)
+
+### 7. [Custom Types and Methods](7.%20custom-types-methods/README.md)
 Creating custom types and attaching behavior:
 - Defining structs (custom types)
 - Creating and initializing structs
@@ -61,7 +72,7 @@ Creating custom types and attaching behavior:
 - Constructor functions and embedded structs
 - Method chaining and practical examples
 
-### 7. [File I/O](7.%20file-io/README.md)
+### 8. [File I/O](8.%20file-io/README.md)
 Reading and writing files to disk:
 - Simple file operations (`os.ReadFile`, `os.WriteFile`)
 - File handles and proper cleanup
@@ -70,7 +81,7 @@ Reading and writing files to disk:
 - Appending to files and line-by-line reading
 - Copying files and checking file existence
 
-### 8. [Testing](8.%20testing/README.md)
+### 9. [Testing](9.%20testing/README.md)
 Writing tests and benchmarks for Go code:
 - Understanding `go mod init` and modules
 - Test file structure and naming conventions
@@ -136,6 +147,7 @@ go test -bench=.
 - ✅ Functions and Return Types - Function fundamentals
 - ✅ Arrays, Slices, and Loops - Collections and iteration
 - ✅ Pointers - Memory addresses and references
+- ✅ Maps - Key-value pairs and hash tables
 - ✅ Custom Types and Methods - Structs and receiver functions
 - ✅ File I/O - Reading and writing files to disk
 - ✅ Testing - Writing tests, benchmarks, and using go modules
