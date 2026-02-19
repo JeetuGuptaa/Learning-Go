@@ -92,6 +92,19 @@ Writing tests and benchmarks for Go code:
 - Test helpers and parallel tests
 - Why you can't name a module "main"
 
+### 10. [Interfaces](10.%20interfaces/README.md)
+Mastering Go's most powerful feature for abstraction:
+- What interfaces are and why they're essential
+- Implicit interface implementation (no keywords!)
+- Polymorphism and writing flexible code
+- Interface composition (embedding interfaces)
+- Empty interface (`interface{}`) and type assertions
+- Type switches for handling different types
+- Pointer vs value receivers with interfaces
+- Common standard library interfaces (io.Reader, io.Writer, error)
+- Best practices (small interfaces, accept interfaces/return structs)
+- Real-world examples (payment processing, shapes, counters)
+
 ## Getting Started with Go
 
 If you're new to Go, start with the Hello World project above. It provides a comprehensive introduction to:
@@ -151,8 +164,9 @@ go test -bench=.
 - ✅ Custom Types and Methods - Structs and receiver functions
 - ✅ File I/O - Reading and writing files to disk
 - ✅ Testing - Writing tests, benchmarks, and using go modules
+- ✅ Interfaces - Polymorphism, abstraction, and flexible design
 - 🔄 More topics coming as I learn...
 
 ---
 
-*Last updated: 2026-02-18*
+*Last updated: 2026-02-19*
