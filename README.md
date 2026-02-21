@@ -105,6 +105,17 @@ Mastering Go's most powerful feature for abstraction:
 - Best practices (small interfaces, accept interfaces/return structs)
 - Real-world examples (payment processing, shapes, counters)
 
+### 11. [Goroutines and Channels](11.%20goroutines-channels/README.md)
+Concurrent programming in Go:
+- Goroutines (lightweight threads)
+- Channels for communication between goroutines
+- Buffered vs unbuffered channels
+- Channel operations (send, receive, close, range)
+- Select statement for multiplexing
+- Worker pool pattern
+- Common concurrency patterns (fan-out, fan-in, pipeline)
+- Best practices for concurrent programming
+
 ## Getting Started with Go
 
 If you're new to Go, start with the Hello World project above. It provides a comprehensive introduction to:
@@ -165,8 +176,9 @@ go test -bench=.
 - ✅ File I/O - Reading and writing files to disk
 - ✅ Testing - Writing tests, benchmarks, and using go modules
 - ✅ Interfaces - Polymorphism, abstraction, and flexible design
+- ✅ Goroutines and Channels - Concurrent programming with goroutines
 - 🔄 More topics coming as I learn...
 
 ---
 
-*Last updated: 2026-02-19*
+*Last updated: 2026-02-21*
