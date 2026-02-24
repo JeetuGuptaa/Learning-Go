@@ -116,6 +116,18 @@ Concurrent programming in Go:
 - Common concurrency patterns (fan-out, fan-in, pipeline)
 - Best practices for concurrent programming
 
+### 12. [HTTP/REST APIs](12.%20http-rest-apis/README.md)
+Building web servers and REST APIs with Go's standard library:
+- Creating HTTP servers with `net/http`
+- RESTful endpoint design (GET, POST, DELETE)
+- JSON marshaling and unmarshaling with struct tags
+- Request handling and response writing
+- HTTP status codes and error handling
+- Middleware patterns (logging, CORS)
+- HTTP client for making requests
+- Route handling and URL path parsing
+- Best practices for API design
+
 ## Getting Started with Go
 
 If you're new to Go, start with the Hello World project above. It provides a comprehensive introduction to:
@@ -177,8 +189,9 @@ go test -bench=.
 - ✅ Testing - Writing tests, benchmarks, and using go modules
 - ✅ Interfaces - Polymorphism, abstraction, and flexible design
 - ✅ Goroutines and Channels - Concurrent programming with goroutines
+- ✅ HTTP/REST APIs - Building web servers and REST APIs
 - 🔄 More topics coming as I learn...
 
 ---
 
-*Last updated: 2026-02-21*
+*Last updated: 2026-02-24*
